@@ -148,7 +148,7 @@ html[xmlns] .slides {
 }
 
 .flex-direction-nav .flex-prev {
-  left: 0px;
+  left: 0;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
   -ms-transition: all 0.5s ease 0s;
@@ -157,7 +157,7 @@ html[xmlns] .slides {
 }
 
 .flex-direction-nav .flex-next {
-  right: 0px;
+  right: 0;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
   -ms-transition: all 0.5s ease 0s;

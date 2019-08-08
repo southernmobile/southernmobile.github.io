@@ -129,39 +129,6 @@ nav#mainNav a.active:after {
   color: #111111;
 }
 
-.topSocials {
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  color: #111111;
-  text-align: center;
-}
-
-.topSocials ul {
-  padding-bottom: 6px;
-}
-
-.topSocials ul li {
-  margin-top: 8px;
-}
-
-.topSocials ul:first-child {
-  border-left: 1px solid #efefef;
-  margin-right: 0;
-}
-
-.topSocials ul:last-child {
-  margin-left: 0;
-  margin-right: 0;
-  border-left: 1px solid #efefef;
-}
-
-.topSocials ul li:first-child {
-  border-bottom: 1px solid #efefef;
-  padding-bottom: 8px;
-}
-
-
 /*End header*/
 
 
@@ -304,7 +271,7 @@ nav#mainNav a.active:after {
 
 .skillbarTitle {
   color: #111111;
-  left: 0px;
+  left: 0;
   position: absolute;
   top: -28px;
   z-index: 10;
@@ -646,7 +613,7 @@ input[type="number"],
   content: "";
   display: block;
   position: absolute;
-  right: 0px;
+  right: 0;
   top: 21px;
   width: 17px;
   z-index: 0;
@@ -808,11 +775,8 @@ input[type="number"],
     right: 1px;
     top: 22px;
   }
-  .topSocials {
-    display: none;
-  }
   nav#mainNav li a {
-    padding: 3px 0px;
+    padding: 3px 0;
     display: inline-block;
   }
   .mobileBtn {
@@ -862,7 +826,7 @@ input[type="number"],
   }
   #testiCli .clientSlider {
     width: 430px;
-    margin: 40px 0 0 0px;
+    margin: 40px 0 0 0;
   }
   .clientSlider li {
     margin-left: 17px;
@@ -945,11 +909,8 @@ input[type="number"],
     right: 1px;
     top: 22px;
   }
-  .topSocials {
-    display: none;
-  }
   nav#mainNav li a {
-    padding: 3px 0px;
+    padding: 3px 0;
     display: inline-block;
   }
   .mobileBtn {
@@ -1009,7 +970,7 @@ input[type="number"],
   }
   #testiCli .clientSlider {
     width: 281px;
-    margin: 40px 0 0 0px;
+    margin: 40px 0 0 0;
   }
   .clientSlider li {
     margin-left: 11px;
@@ -1027,7 +988,7 @@ input[type="number"],
     margin-bottom: 20px;
   }
   .container .widget:last-child {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
   .cForm textarea,
   .cForm form {
