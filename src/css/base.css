@@ -196,19 +196,7 @@ body {
 .titleBig {
   text-transform: uppercase;
   position: relative;
-  display: inline-block;
   margin-bottom: 60px;
-}
-
-.titleBig:after {
-  border-bottom: 3px solid #111111;
-  content: "";
-  display: block;
-  position: absolute;
-  right: 2px;
-  top: 21px;
-  width: 18px;
-  z-index: 0;
 }
 
 .titleSmall {
@@ -315,13 +303,17 @@ a,
 /* #Font Rules
 ================================================== */
 
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
 .logo h1,
 .caption h1 span.new,
 .intro span.black,
 .factSlider .count,
 .bottomFooter .bLogo,
 .black {
-  font-family: 'open_sansextrabold', Arial, sans-serif;
+  font-weight: bolder;
 }
 
 nav#mainNav li,
@@ -337,19 +329,20 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'open_sansbold', Arial, sans-serif;
+  font-weight: bold;
 }
 
-.caption h1,
+.caption h1
 {
-  font-family: "open_sanssemibold", Arial, sans-serif;
+  font-weight: bold;
 }
 
 .team h2 span,
 .percentage span,
 .testiSlider li .testiProfile span,
 .projDesc span {
-  font-family: "open_sanslight_italic", Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold
 }
 
 .skill h1,
@@ -361,7 +354,7 @@ input[type="number"],
 #success h2,
 #error h2,
 .workHours li span {
-  font-family: "open_sanslight", Arial, sans-serif;
+  font-weight: lighter;
 }
 
 nav#mainNav li,
@@ -375,11 +368,11 @@ nav#mainNav li,
 }
 
 .testiSlider li blockquote {
-  font-family: "open_sansitalic", Arial, sans-serif;
+  font-style: italic;
 }
 
 .caption h1 {
-  font-family: "open_sanssemibold", Arial, sans-serif;
+  font-weight: bold;
 }
 
 
@@ -403,7 +396,7 @@ nav#mainNav li,
   padding-bottom: 60px;
 }
 
-.section {
+.section h1 {
   text-align: center;
 }
 

@@ -63,19 +63,8 @@ header {
   display: inline-block;
   font-size: 22px;
   text-transform: uppercase;
-  color: #111111;
+  color: #111;
   position: relative;
-}
-
-.logo h1:after {
-  border-bottom: 4px solid #111111;
-  content: "";
-  display: block;
-  position: absolute;
-  right: 5px;
-  top: 23px;
-  width: 14px;
-  z-index: 0;
 }
 
 nav#mainNav {
@@ -89,14 +78,14 @@ nav#mainNav li {
 }
 
 nav#mainNav li a {
-  color: #111111;
+  color: #111;
   display: block;
   padding: 25px 15px;
   position: relative;
 }
 
 nav#mainNav a.active:after {
-  border-bottom: 2px solid #111111;
+  border-bottom: 2px solid #111;
   content: "";
   display: block;
   position: absolute;
@@ -126,7 +115,7 @@ nav#mainNav a.active:after {
 
 .mobileBtn i {
   font-size: 16px;
-  color: #111111;
+  color: #111;
 }
 
 /*End header*/
@@ -171,7 +160,7 @@ nav#mainNav a.active:after {
 }
 
 .caption h1 span.new:after {
-  border-bottom: 4px solid #111111;
+  border-bottom: 4px solid #111;
   content: "";
   display: block;
   position: absolute;
@@ -188,7 +177,7 @@ nav#mainNav a.active:after {
 /*About us*/
 
 .intro {
-  color: #111111;
+  color: #111;
 }
 
 .ctl {
@@ -256,7 +245,7 @@ nav#mainNav a.active:after {
 }
 
 .skillbarHolder {
-  background-color: #111111;
+  background-color: #111;
   height: 3px;
   position: relative;
 }
@@ -270,7 +259,7 @@ nav#mainNav a.active:after {
 }
 
 .skillbarTitle {
-  color: #111111;
+  color: #111;
   left: 0;
   position: absolute;
   top: -28px;
@@ -278,7 +267,7 @@ nav#mainNav a.active:after {
 }
 
 .percentage span {
-  color: #111111;
+  color: #111;
   font-size: 11px;
   padding: 4px;
   position: absolute;
@@ -322,19 +311,15 @@ nav#mainNav a.active:after {
 }
 
 .factsContainer {
-  background: url(../images/parallax/parallax1.jpg);
-  background-attachment: fixed;
-  background-position: center top;
-  background-repeat: repeat-y;
   background-size: cover;
   min-height: 300px;
-  background-color: #fafafa;
+  background: #fafafa url(../images/parallax/parallax1.jpg) repeat-y fixed center top;
 }
 
 .factSlider {
   text-align: center;
   width: 500px;
-  color: #111111;
+  color: #111;
 }
 
 .factSlider i,
@@ -500,7 +485,7 @@ nav#mainNav a.active:after {
 }
 
 .workHours li {
-  color: #111111;
+  color: #111;
 }
 
 .workHours li span {
@@ -536,7 +521,7 @@ input[type="number"],
 .cForm textarea {
   background: none repeat scroll 0 0 #FFFFFF;
   border: 1px solid #EFEFEF;
-  color: #666666;
+  color: #666;
   margin-bottom: 10px;
   outline-width: 0;
   padding-left: 10px;
@@ -558,7 +543,7 @@ input[type="number"],
 }
 
 .cForm #submit {
-  color: #111111;
+  color: #111;
   cursor: pointer;
   display: inline-block;
   margin-top: 20px;
@@ -601,56 +586,17 @@ input[type="number"],
   padding-bottom: 0;
 }
 
-.topFooter h2 {
-  text-transform: uppercase;
-  position: relative;
-  display: inline-block;
-  margin-bottom: 20px;
-}
-
-.topFooter h2:after {
-  border-bottom: 3px solid #111111;
-  content: "";
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 21px;
-  width: 17px;
-  z-index: 0;
-}
-
-.topFooter ul li {
-  margin-bottom: 5px;
-}
-
-.topFooter ul a {
-  color: #999999;
-}
-
 .bottomFooter {
   background: #efefef;
   padding: 20px 0;
-  margin-top: 60px;
   font-size: 12px;
-  color: #666666;
-  border-top: 1px solid #e5e5e5;
+  color: #666;
 }
 
 .bottomFooter .bLogo {
   text-transform: uppercase;
-  color: #111111;
+  color: #111;
   position: relative;
-}
-
-.bottomFooter .bLogo:after {
-  border-bottom: 2px solid #111111;
-  content: "";
-  display: block;
-  position: absolute;
-  right: 1px;
-  top: 15px;
-  width: 10px;
-  z-index: 0;
 }
 
 .bottomFooter .right {
