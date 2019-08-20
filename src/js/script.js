@@ -57,20 +57,6 @@ $("#mainNav ul a, .logo a, .ctl a, .skill a").click(function(e){
 		
 //------------------------------------- End navigation setup ------------------------------------------------//
 
-
-
-
-//---------------------------------- Clients animation-----------------------------------------//
-
-$('.clientList a').css({opacity:0.5});
-		$('.clientList a').hover( function(){ 
-			$(this).stop().animate({opacity:"1"}, 100, 'easeOutQuint');
-		}, function(){ 
-			$(this).stop().animate({opacity:"0.5"}, 100, 'easeOutQuint');
-		});
-//---------------------------------- End clients animation-----------------------------------------//
-
-
 //---------------------------------- Form validation-----------------------------------------//
 
 
@@ -183,60 +169,6 @@ $('#mainNav li a').click(function(){
 //--------------------------------- End mobile menu --------------------------------//
 
 
-//--------------------------------- Parallax --------------------------------//
-	
-$(".factsContainer").parallax("300%", 0.3);
-$(".testiCliContainer").parallax("300%", 0.3);
-
-
-//--------------------------------- End parallax --------------------------------//
-
-
-//---------------------------------- Site slider-----------------------------------------//
-
-$('.mainSlider, .projectSlider').flexslider({
-	animation: "fade",
-	slideshow: true,
-	controlNav: false,
-	animationSpeed: 1500
-});
-
-
-
-$('.factSlider').flexslider({
-	animation: "slide",
-	slideshow: true,
-	controlNav: false,
-	pauseOnHover: false,
-	maxItems:1,
-	animationSpeed: 500
-});
-
-
-$('.testiSlider').flexslider({
-	animation: "slide",
-	slideshow: false,
-	directionNav:false,
-	controlNav: true
-});
-
-$('.clientSlider').flexslider({
-	animation: "slide",
-	slideshow: false,
-	directionNav:false,
- 	itemWidth: 53,
-    itemMargin: 0,
-    minItems: 2,
-    maxItems: 5,
-	controlNav: true
-});
-
-
-
-//---------------------------------- End site slider-----------------------------------------//
-
-
-
 //---------------------------------- Portfolio -----------------------------------------//
 
 $(".desc").css({ opacity: 0 });
@@ -255,51 +187,7 @@ $('.item').hover(function () {
 });
 
 
- $('.folio').magnificPopup({ 
-	type: 'image',
-	fixedContentPos: false,
-	fixedBgPos: false,
-	mainClass: 'mfp-no-margins mfp-with-zoom',
-	image: {
-		verticalFit: true
-	},
-	zoom: {
-		enabled: true,
-		duration: 300
-	}
-});
-
-
 //---------------------------------- End portfolio-----------------------------------------//
-
-
-
-
-//---------------------------------- Facts animation-----------------------------------------//
-
-$('.factSlider').appear(function() {
-	$(".timer .count").each(function() {
-	var counter = $(this).html();
-	$(this).countTo({
-		from: 0,
-		to: counter,
-		speed: 2000,
-		refreshInterval: 10,
-		});
-	});
-});
-
-
-
-//---------------------------------- End facts animation-----------------------------------------//
-
-
-//--------------------------------- To the top  --------------------------------//
-
-$().UItoTop({ easingType: 'easeOutQuart' });
-
-//--------------------------------- End to the top --------------------------------//
-
 
 });
 
