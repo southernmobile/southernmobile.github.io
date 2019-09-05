@@ -1,3 +1,16 @@
+/* Skeleton.css overrides */
+body {
+  color: #111;
+}
+
+body, input, textarea {
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+#wrapper {
+  margin-top: 73px; /* Height of header bar. */
+}
+
 /*Preloader*/
 
 #loader {
@@ -777,12 +790,6 @@ input[type="number"],
   .clientSlider li {
     margin-left: 17px;
   }
-  .container .service.bottom3 {
-    margin-bottom: 40px;
-  }
-  .container .service.bottom3:last-child {
-    margin-bottom: 0;
-  }
   .container .info {
     margin-bottom: 40px;
   }
@@ -921,12 +928,6 @@ input[type="number"],
   .clientSlider li {
     margin-left: 11px;
   }
-  .container .service.bottom3 {
-    margin-bottom: 40px;
-  }
-  .container .service.bottom3:last-child {
-    margin-bottom: 0;
-  }
   .container .info {
     margin-bottom: 40px;
   }
@@ -949,7 +950,7 @@ input[type="number"],
   .container .item {
     margin-bottom: 20px;
   }
-  .bottomFooter {
+  Footer {
     text-align: center;
   }
   .bottomFooter .right {
