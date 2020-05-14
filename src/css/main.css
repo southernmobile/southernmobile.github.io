@@ -3,12 +3,28 @@ body {
   color: #111;
 }
 
-body, input, textarea {
+body, input, textarea, button {
   font-family: 'Poppins', Arial, sans-serif;
 }
 
 #wrapper {
   margin-top: 73px; /* Height of header bar. */
+}
+
+/* JQuery Modal overrides */
+.blocker {
+  z-index: 100000;
+}
+
+/* Buttons */
+.button {
+  background: #000;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: bold;
+  border: 0;
+  padding: 6px;
+  font-size: 14px;
 }
 
 /*Preloader*/

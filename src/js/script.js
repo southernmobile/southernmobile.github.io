@@ -27,7 +27,7 @@ $("#mainNav ul a, .logo a, .ctl a, .skill a").click(function(e){
 	
 
 
-	$('html,body').animate({scrollTop:target_top -70}, 800);
+	$('html,body').animate({scrollTop:target_top -120}, 800);
 		return false;
 	
 });
